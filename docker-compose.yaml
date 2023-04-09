@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-   image: 167.71.26.147:8083/app:1.5
+   image: app:1.5
    ports:
      - 3000:3000
    networks:
